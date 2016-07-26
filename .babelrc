@@ -1,0 +1,7 @@
+{
+  "presets": [
+    "es2015",
+    "react",
+    "transform-strict-mode"
+  ]
+}
