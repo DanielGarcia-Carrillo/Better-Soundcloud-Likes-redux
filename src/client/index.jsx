@@ -4,7 +4,7 @@ import {render} from 'react-dom';
 
 const App = React.createClass({
     render() {
-        return <p> Hello React!</p>;
+        return <p>Hello React!</p>;
     }
 });
 

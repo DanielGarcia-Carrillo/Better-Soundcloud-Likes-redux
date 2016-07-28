@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 module.exports = {
     entry: {
         'dist/bundle': './src/client/index.jsx',

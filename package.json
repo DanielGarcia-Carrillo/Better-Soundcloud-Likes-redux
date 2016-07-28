@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/DanielGarcia-Carrillo/Better-Soundcloud-Likes-redux.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Daniel Garcia-Carrillo",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DanielGarcia-Carrillo/Better-Soundcloud-Likes-redux/issues"
   },
@@ -36,9 +36,7 @@
     "css-loader": "^0.23.1",
     "eslint": "^3.1.1",
     "eslint-plugin-react": "^5.2.2",
-    "gulp": "^3.9.1",
     "redux-devtools": "^3.3.1",
-    "style-loader": "^0.13.1",
-    "webpack-stream": "^3.2.0"
+    "style-loader": "^0.13.1"
   }
 }
