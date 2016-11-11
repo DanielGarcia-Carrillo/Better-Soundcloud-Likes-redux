@@ -1,6 +1,8 @@
 # Better-Soundcloud-Likes-redux
 A port of my better soundcloud to react/redux
 
+A web app to display all of my soundcloud likes on the same page with fast searching.
+
 Currently deployed to [google storage](https://storage.googleapis.com/better-soundcloud-callback.appspot.com/index.html) (no server is used to make implementation simple)
 
 ## Testing
