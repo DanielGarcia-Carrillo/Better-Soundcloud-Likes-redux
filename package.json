@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "webpack --progress --watch",
     "lint": "eslint ./src",
+    "deploy": "gsutil cp -z css -a public-read src/styles.css gs://better-soundcloud-callback.appspot.com/styles.css && gsutil cp -z js -a public-read dist/bundle.js gs://better-soundcloud-callback.appspot.com/dist/bundle.js && gsutil cp -z html -a public-read index.html gs://better-soundcloud-callback.appspot.com/index.html && gsutil cp -z json -a public-read data/mocked-favorites.json gs://better-soundcloud-callback.appspot.com/data/mocked-favorites.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,7 +27,9 @@
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
     "react-redux": "^4.4.5",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0",
+    "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {
     "babel-loader": "^6.2.4",
@@ -37,6 +40,7 @@
     "eslint": "^3.1.1",
     "eslint-plugin-react": "^5.2.2",
     "redux-devtools": "^3.3.1",
-    "style-loader": "^0.13.1"
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
   }
 }

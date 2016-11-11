@@ -1,0 +1,61 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+ul {
+    list-style: none;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #fb4109;
+    z-index: 1;
+}
+.player-controls .fa {
+    padding: 15px;
+    cursor: pointer;
+}
+.player-controls .fa + .fa {
+    margin-left: 10px;
+}
+.cover-art {
+    border: 1px solid #aeaeae;
+    margin-right: 20px;
+    box-sizing: border-box;
+    width: 86px;
+    height: 86px;
+}
+.song-list {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.song-item {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    width: 100%;
+    cursor: pointer;
+}
+.song-item + .song-item {
+    margin-top: 10px;
+}
+@media only screen and (min-width: 960px) {
+    .song-item {
+        width: 960px;
+    }
+}
